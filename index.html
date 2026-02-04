@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Arte de Aprender - Portal de Artesanato e Cursos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header/Navegação -->
+    <header id="header">
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="logo">
+                    <h1>A Arte de Aprender</h1>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#inicio" class="nav-link">Início</a></li>
+                    <li><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li><a href="#cursos" class="nav-link">Cursos</a></li>
+                    <li><a href="#noticias" class="nav-link">Notícias</a></li>
+                    <li><a href="#contato" class="nav-link">Contato</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Início/Hero -->
+    <section id="inicio" class="hero">
+        <div class="hero-background">
+            <div class="floating-elements">
+                <div class="floating-element element-1"></div>
+                <div class="floating-element element-2"></div>
+                <div class="floating-element element-3"></div>
+                <div class="floating-element element-4"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">A Arte de Aprender</h1>
+            <p class="hero-subtitle">Transforme a sua paixão em arte. Cursos feitos à mão para você.</p>
+            <a href="#cursos" class="cta-button">Ver Cursos</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2 class="section-title">Quem Somos</h2>
+            <p class="sobre-texto">
+                Acreditamos que o saber manual e criativo tem o poder de transformar vidas. 
+                Nosso propósito é valorizar e compartilhar técnicas artesanais tradicionais, 
+                conectando mestres artesãos com pessoas que desejam aprender e se expressar 
+                através do trabalho manual. Cada peça criada carrega uma história, e cada 
+                curso é uma oportunidade de contar a sua.
+            </p>
+            
+            <div class="criadoras">
+                <h3 class="criadoras-title">Nossas Criadoras</h3>
+                <div class="criadoras-grid">
+                    <div class="criadora-card">
+                        <div class="criadora-img">
+                            <div class="placeholder-face">MD</div>
+                        </div>
+                        <h4>Maria Deyse</h4>
+                        <p>Especialista em Boneca de Pano</p>
+                    </div>
+                    <div class="criadora-card">
+                        <div class="criadora-img">
+                            <div class="placeholder-face">N</div>
+                        </div>
+                        <h4>Natalia</h4>
+                        <p>Especialista em Boneca de Pano Ponteira</p>
+                    </div>
+                    <div class="criadora-card">
+                        <div class="criadora-img">
+                            <div class="placeholder-face">V</div>
+                        </div>
+                        <h4>Vanessa</h4>
+                        <p>Especialista em Tapete de Crochê</p>
+                    </div>
+                    <div class="criadora-card">
+                        <div class="criadora-img">
+                            <div class="placeholder-face">L</div>
+                        </div>
+                        <h4>Luzia</h4>
+                        <p>Especialista em Bolsa de Crochê</p>
+                    </div>
+                    <div class="criadora-card">
+                        <div class="criadora-img">
+                            <div class="placeholder-face">L</div>
+                        </div>
+                        <h4>Letícia</h4>
+                        <p>Especialista em Desenho e Ilustração</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Cursos -->
+    <section id="cursos" class="cursos">
+        <div class="container">
+            <h2 class="section-title">Nossos Cursos Feitos à Mão</h2>
+            <div class="cursos-grid">
+                <div class="curso-card">
+                    <div class="curso-icon">🧵</div>
+                    <div class="curso-content">
+                        <h3>Bonecas de Pano Tradicionais</h3>
+                        <p class="curso-prof">Com Maria Deyse</p>
+                        <p class="curso-desc">Aprenda a criar bonecas de pano únicas, desde o corte até os detalhes finais.</p>
+                        <button class="curso-btn" data-curso="bonecas-pano">Ver Curso Completo</button>
+                    </div>
+                    <div class="curso-detalhes">
+                        <h4>Conteúdo do Curso:</h4>
+                        <ol>
+                            <li>Introdução aos materiais e ferramentas</li>
+                            <li>Escolha e preparação dos tecidos</li>
+                            <li>Molde e corte das peças</li>
+                            <li>Costura e montagem da boneca</li>
+                            <li>Detalhes faciais e cabelos</li>
+                            <li>Vestimentas e acessórios</li>
+                            <li>Acabamentos e cuidados finais</li>
+                        </ol>
+                        <button class="close-btn">Fechar</button>
+                    </div>
+                </div>
+                
+                <div class="curso-card">
+                    <div class="curso-icon">✏️</div>
+                    <div class="curso-content">
+                        <h3>Bonecas Ponteira de Lápis</h3>
+                        <p class="curso-prof">Com Natalia</p>
+                        <p class="curso-desc">Crie bonecas encantadoras que também servem como ponteiras para lápis.</p>
+                        <button class="curso-btn" data-curso="bonecas-ponteira">Ver Curso Completo</button>
+                    </div>
+                    <div class="curso-detalhes">
+                        <h4>Conteúdo do Curso:</h4>
+                        <ol>
+                            <li>Materiais específicos para ponteiras</li>
+                            <li>Técnicas de modelagem em miniatura</li>
+                            <li>Montagem da estrutura da ponteira</li>
+                            <li>Costura de peças pequenas</li>
+                            <li>Acabamento e fixação no lápis</li>
+                            <li>Personalização e variações</li>
+                        </ol>
+                        <button class="close-btn">Fechar</button>
+                    </div>
+                </div>
+                
+                <div class="curso-card">
+                    <div class="curso-icon">🧶</div>
+                    <div class="curso-content">
+                        <h3>Tapetes de Crochê</h3>
+                        <p class="curso-prof">Com Vanessa</p>
+                        <p class="curso-desc">Domine as técnicas para criar tapetes de crochê que aquecem e decoram sua casa.</p>
+                        <button class="curso-btn" data-curso="tapetes-croche">Ver Curso Completo</button>
+                    </div>
+                    <div class="curso-detalhes">
+                        <h4>Conteúdo do Curso:</h4>
+                        <ol>
+                            <li>Tipos de fios e agulhas para tapetes</li>
+                            <li>Pontos básicos do crochê</li>
+                            <li>Leitura de gráficos e receitas</li>
+                            <li>Técnicas para trabalhos grandes</li>
+                            <li>Padrões e desenhos</li>
+                            <li>Acabamento e lavagem</li>
+                        </ol>
+                        <button class="close-btn">Fechar</button>
+                    </div>
+                </div>
+                
+                <div class="curso-card">
+                    <div class="curso-icon">👜</div>
+                    <div class="curso-content">
+                        <h3>Bolsas de Crochê</h3>
+                        <p class="curso-prof">Com Luzia</p>
+                        <p class="curso-desc">Aprenda a fazer bolsas de crochê modernas, práticas e cheias de estilo.</p>
+                        <button class="curso-btn" data-curso="bolsas-croche">Ver Curso Completo</button>
+                    </div>
+                    <div class="curso-detalhes">
+                        <h4>Conteúdo do Curso:</h4>
+                        <ol>
+                            <li>Seleção de materiais para bolsas</li>
+                            <li>Pontos específicos para peças estruturadas</li>
+                            <li>Montagem de base e laterais</li>
+                            <li>Criação de alças resistentes</li>
+                            <li>Acabamento com forro</li>
+                            <li>Acrescentando fechos e detalhes</li>
+                        </ol>
+                        <button class="close-btn">Fechar</button>
+                    </div>
+                </div>
+                
+                <div class="curso-card">
+                    <div class="curso-icon">🎨</div>
+                    <div class="curso-content">
+                        <h3>Desenho e Ilustração</h3>
+                        <p class="curso-prof">Com Letícia</p>
+                        <p class="curso-desc">Desenvolva suas habilidades de desenho e descubra seu estilo único.</p>
+                        <button class="curso-btn" data-curso="desenho-ilustracao">Ver Curso Completo</button>
+                    </div>
+                    <div class="curso-detalhes">
+                        <h4>Conteúdo do Curso:</h4>
+                        <ol>
+                            <li>Materiais básicos para desenho</li>
+                            <li>Fundamentos: linha, forma e volume</li>
+                            <li>Perspectiva e proporção</li>
+                            <li>Técnicas de sombreamento</li>
+                            <li>Desenho de figura humana</li>
+                            <li>Estilos de ilustração</li>
+                            <li>Criação de uma ilustração completa</li>
+                        </ol>
+                        <button class="close-btn">Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Notícias -->
+    <section id="noticias" class="noticias">
+        <div class="container">
+            <h2 class="section-title">Novidades do Mundo da Arte e Artesanato</h2>
+            <div class="noticias-grid">
+                <div class="noticia-card">
+                    <div class="noticia-date">2025</div>
+                    <h3>Feira Nacional de Artesanato abre inscrições para artesãos de MG</h3>
+                    <p>Notícia sobre a abertura de inscrições em MG para a Feira Nacional de Artesanato, que reúne artesãos de todo o país.</p>
+                    <a href="#" class="noticia-link">Ler mais →</a>
+                </div>
+                <div class="noticia-card">
+                    <div class="noticia-date">2025</div>
+                    <h3>SPFW N60: Foz leva à passarela artesanato do Brasil profundo</h3>
+                    <p>Inspiração no realismo fantástico marca a presença do artesanato tradicional no São Paulo Fashion Week.</p>
+                    <a href="#" class="noticia-link">Ler mais →</a>
+                </div>
+                <div class="noticia-card">
+                    <div class="noticia-date"> 2025</div>
+                    <h3>Pirenópolis recebe 10ª Feira Goiás Feito à Mão</h3>
+                    <p>Evento acontece durante o Canto da Primavera e reúne artesãos da região com peças exclusivas.</p>
+                    <a href="#" class="noticia-link">Ler mais →</a>
+                </div>
+                <div class="noticia-card">
+                    <div class="noticia-date">2025</div>
+                    <h3>Bobbie Goods: técnicas de colorir usadas em livros virais</h3>
+                    <p>Técnicas já foram utilizadas por Van Gogh, Botticelli, Caravaggio e outros artistas clássicos.</p>
+                    <a href="#" class="noticia-link">Ler mais →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2 class="section-title">Fale Conosco</h2>
+            <div class="contato-content">
+                <form class="contato-form">
+                    <div class="form-group">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" name="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem">Mensagem</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Enviar Mensagem</button>
+                </form>
+                <div class="contato-info">
+                    <h3>Localização</h3>
+                    <p>Av. Neylo Rolim, Parque Alvorada 1, quadra 79, lote 13, Luziânia-GO, CEP: 72800-000</p>
+                    <div class="info-item">
+                        <span>📧</span>
+                        <span>contato@aartedaprender.com</span>
+                    </div>
+                    <div class="info-item">
+                        <span>📞</span>
+                        <span>(61) 99999-9999</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>A Arte de Aprender</h2>
+                    <p>Transforme a sua paixão em arte</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#cursos">Cursos</a></li>
+                        <li><a href="#noticias">Notícias</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h3>Siga-nos</h3>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon">📘</a>
+                        <a href="#" class="social-icon">📷</a>
+                        <a href="#" class="social-icon">🎬</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023-2025 A Arte de Aprender. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
