@@ -1727,3 +1727,82 @@ footer {
         padding: 100px 0 40px;
     }
 }
+
+/* Estilos para as imagens das criadoras */
+.criadoras-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.criadora-card {
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.criadora-card:hover {
+    transform: translateY(-10px);
+}
+
+.criadora-img {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid #ff6b6b;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.criadora-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.3s ease;
+}
+
+.criadora-img:hover img {
+    transform: scale(1.1);
+}
+
+.criadora-card h4 {
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.criadora-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Remova ou comente os estilos antigos do placeholder */
+.placeholder-face {
+    display: none; /* Isso oculta os placeholders antigos */
+}
+
+/* Para dispositivos móveis */
+@media (max-width: 768px) {
+    .criadoras-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .criadora-img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    .criadoras-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .criadora-img {
+        width: 140px;
+        height: 140px;
+    }
+}
